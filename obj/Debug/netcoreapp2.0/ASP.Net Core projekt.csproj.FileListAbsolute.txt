@@ -1,0 +1,11 @@
+C:\Users\tonig\Documents\ASP\ASP.Net Core projekt\ASP.Net Core projekt\bin\Debug\netcoreapp2.0\ASP.Net Core projekt.deps.json
+C:\Users\tonig\Documents\ASP\ASP.Net Core projekt\ASP.Net Core projekt\bin\Debug\netcoreapp2.0\ASP.Net Core projekt.runtimeconfig.json
+C:\Users\tonig\Documents\ASP\ASP.Net Core projekt\ASP.Net Core projekt\bin\Debug\netcoreapp2.0\ASP.Net Core projekt.runtimeconfig.dev.json
+C:\Users\tonig\Documents\ASP\ASP.Net Core projekt\ASP.Net Core projekt\bin\Debug\netcoreapp2.0\ASP.Net Core projekt.dll
+C:\Users\tonig\Documents\ASP\ASP.Net Core projekt\ASP.Net Core projekt\bin\Debug\netcoreapp2.0\ASP.Net Core projekt.pdb
+C:\Users\tonig\Documents\ASP\ASP.Net Core projekt\ASP.Net Core projekt\obj\Debug\netcoreapp2.0\ASP.Net Core projekt.csprojResolveAssemblyReference.cache
+C:\Users\tonig\Documents\ASP\ASP.Net Core projekt\ASP.Net Core projekt\obj\Debug\netcoreapp2.0\ASP.Net Core projekt.csproj.CoreCompileInputs.cache
+C:\Users\tonig\Documents\ASP\ASP.Net Core projekt\ASP.Net Core projekt\obj\Debug\netcoreapp2.0\ASP.Net Core projekt.AssemblyInfoInputs.cache
+C:\Users\tonig\Documents\ASP\ASP.Net Core projekt\ASP.Net Core projekt\obj\Debug\netcoreapp2.0\ASP.Net Core projekt.AssemblyInfo.cs
+C:\Users\tonig\Documents\ASP\ASP.Net Core projekt\ASP.Net Core projekt\obj\Debug\netcoreapp2.0\ASP.Net Core projekt.dll
+C:\Users\tonig\Documents\ASP\ASP.Net Core projekt\ASP.Net Core projekt\obj\Debug\netcoreapp2.0\ASP.Net Core projekt.pdb

@@ -1,0 +1,36 @@
+﻿@model ICollection<ASP.NetCoreProjekt.Models.Tank>
+<br />
+<h1>My fish tank</h1>
+<br />
+<h3>In the table below you can see all the fishes I have in my tank and some of their caracteristics</h3>
+<br />
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Type</th>
+            <th scope="col">Species</th>
+            <th scope="col">Agressivity</th>
+            <th scope="col">Size</th>
+            <th scope="col">CareLevel</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var fish in Model)
+    {
+        <tr>
+            <th scope="row">@fish.Id</th>
+            
+            <td>@fish.Name</td>
+            <td>@fish.Type</td>
+            <td>@fish.Species</td>
+            <td>@fish.Agressivity</td>
+            <td>@fish.Size</td>
+            <td>@fish.CareLevel</td>
+        </tr>
+    }
+        
+    </tbody>
+</table>

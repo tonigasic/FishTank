@@ -1,0 +1,71 @@
+﻿@model ASP.NetCoreProjekt.Models.Tank
+<form asp-controller="AddFish" asp-action="AddFishes" method="post">
+    <br />
+
+    <h1>Add a Fish in to the Fish Tank</h1>
+    <br />
+    <h3>In this section, you can add a well described fish in my fish tank</h3>
+
+    <br />
+    <br />
+    <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+            <strong>Fish Name</strong>
+        </div>
+        <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" asp-for="Name">
+    </div>
+    <br />
+    <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+            <strong>Fish Type</strong>
+        </div>
+        <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" asp-for="Type">
+    </div>
+    <br />
+    <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+            <strong>Fish Species</strong>
+        </div>
+        <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" asp-for="Species">
+    </div>
+    <br />
+    <div class="input-group input-group-lg">
+
+        <div class="form-group">
+            <label for="sel1">Agressivity level:</label>
+            <select class="form-control" id="Agressivity" asp-for="Agressivity">
+                <option>Not agressive</option>
+                <option>Slightly agressive</option>
+                <option>Agressive</option>
+            </select>
+        </div>
+
+    </div>
+    <br />
+    <div class="input-group input-group-lg">
+        <div class="form-group">
+            <label for="sel1">Fish size:</label>
+            <select class="form-control" id="Size" asp-for="Size">
+                <option>Very small</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Big</option>
+            </select>
+        </div>
+    </div>
+    <br />
+
+    <div class="input-group input-group-lg">
+        <div class="form-group">
+            <label for="sel1">Fish Care Level:</label>
+            <select class="form-control" id="CareLevel" asp-for="CareLevel">
+                <option>Easy</option>
+                <option>Medium</option>
+                <option>Hard</option>
+            </select>
+        </div>
+
+    </div>
+    <br />
+    <button type="submit" class="btn btn-success" >Add</button>
+</form>
